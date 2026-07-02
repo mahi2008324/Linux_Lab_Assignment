@@ -1,0 +1,53 @@
+Question 1 - Linux Environment Verification
+
+Command: whoami
+Output:
+mahi
+
+Observation:
+This command displays the username of the currently logged-in user.
+
+----------------------------------------
+
+Command: groups
+Output:
+mahi sudo ...
+
+Observation:
+This command lists all the groups the current user belongs to.
+
+----------------------------------------
+
+Command: echo $SHELL
+Output:
+/bin/bash
+
+Observation:
+This command shows the current shell.
+
+----------------------------------------
+
+Command: pwd
+Output:
+/home/mahi/Linux_Lab_Assignment/Q1
+
+Observation:
+This command prints the current working directory.
+
+----------------------------------------
+
+Command: ls -la
+Output:
+(Paste the output here)
+
+Observation:
+This command lists all files and directories with detailed information.
+
+----------------------------------------
+
+Command: ping -c 4 google.com
+Output:
+(Paste the output here)
+
+Observation:
+This command checks network connectivity.

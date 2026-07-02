@@ -1,0 +1,24 @@
+Question 2 - Secure Project Workspace Setup
+
+Directory Structure Created:
+Project/
+├── docs
+├── src
+├── backup
+└── plan.txt
+
+Permissions Before Modification:
+-rw-r--r--
+
+Permissions After Modification:
+-rw-------
+
+Ownership:
+Owner: mahi
+Group: mahi
+
+Umask:
+0022
+
+Explanation:
+The permission 600 allows only the owner to read and write the file. Other users cannot access it, which helps protect project data from unauthorized access.
